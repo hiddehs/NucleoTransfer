@@ -1,0 +1,19 @@
+C:\Users\HSchu\AppData\Local\Temporary Projects\NucleoTransfer\bin\Debug\NucleoTransfer.exe.config
+C:\Users\HSchu\Documents\Visual Studio 2015\Projects\NucleoTransfer\NucleoTransfer\bin\Debug\NucleoTransfer.exe.config
+C:\Users\HSchu\Documents\Visual Studio 2015\Projects\NucleoTransfer\NucleoTransfer\bin\Debug\NucleoTransfer.exe
+C:\Users\HSchu\Documents\Visual Studio 2015\Projects\NucleoTransfer\NucleoTransfer\bin\Debug\NucleoTransfer.pdb
+C:\Users\HSchu\Documents\Visual Studio 2015\Projects\NucleoTransfer\NucleoTransfer\bin\Debug\NucleoTransfer.xml
+C:\Users\HSchu\Documents\Visual Studio 2015\Projects\NucleoTransfer\NucleoTransfer\obj\Debug\NucleoTransfer.vbprojResolveAssemblyReference.cache
+C:\Users\HSchu\Documents\Visual Studio 2015\Projects\NucleoTransfer\NucleoTransfer\obj\Debug\NucleoTransfer.main.resources
+C:\Users\HSchu\Documents\Visual Studio 2015\Projects\NucleoTransfer\NucleoTransfer\obj\Debug\NucleoTransfer.Resources.resources
+C:\Users\HSchu\Documents\Visual Studio 2015\Projects\NucleoTransfer\NucleoTransfer\obj\Debug\NucleoTransfer.vbproj.GenerateResource.Cache
+C:\Users\HSchu\Documents\Visual Studio 2015\Projects\NucleoTransfer\NucleoTransfer\obj\Debug\NucleoTransfer.exe
+C:\Users\HSchu\Documents\Visual Studio 2015\Projects\NucleoTransfer\NucleoTransfer\obj\Debug\NucleoTransfer.xml
+C:\Users\HSchu\Documents\Visual Studio 2015\Projects\NucleoTransfer\NucleoTransfer\obj\Debug\NucleoTransfer.pdb
+C:\Users\HSchu\Documents\Visual Studio 2015\Projects\NucleoTransfer\NucleoTransfer\obj\Debug\NucleoTransfer.setup.resources
+C:\Users\HSchu\Documents\Visual Studio 2015\Projects\NucleoTransfer\NucleoTransfer\obj\Debug\NucleoTransfer.AboutBox1.resources
+C:\Users\HSchu\Documents\Visual Studio 2015\Projects\NucleoTransfer\NucleoTransfer\obj\Debug\NucleoTransfer.splash.resources
+C:\Users\HSchu\Documents\Visual Studio 2015\Projects\NucleoTransfer\NucleoTransfer\bin\Debug\NucleoTransfer.exe.manifest
+C:\Users\HSchu\Documents\Visual Studio 2015\Projects\NucleoTransfer\NucleoTransfer\bin\Debug\NucleoTransfer.application
+C:\Users\HSchu\Documents\Visual Studio 2015\Projects\NucleoTransfer\NucleoTransfer\obj\Debug\NucleoTransfer.exe.manifest
+C:\Users\HSchu\Documents\Visual Studio 2015\Projects\NucleoTransfer\NucleoTransfer\obj\Debug\NucleoTransfer.application

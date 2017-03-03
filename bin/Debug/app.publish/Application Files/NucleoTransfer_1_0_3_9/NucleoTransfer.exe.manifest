@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="NucleoTransfer.exe" version="1.0.3.9" publicKeyToken="c04fc9ec53b125d6" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="iconn.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="NucleoTransfer" version="1.0.3.5" language="neutral" processorArchitecture="msil" />
+    <commandLine file="NucleoTransfer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NucleoTransfer.exe" size="3330512">
+      <assemblyIdentity name="NucleoTransfer" version="1.0.3.5" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>r/GbTlvo9jcy9vsX7D3ZeO5ncUXHEZcP9P6FP7dUB8Q=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="iconn.ico" size="370070">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DdL9mxWbu+X8LZ0ZkfPIOSU6W4n4WRZLM0ApBtToZrI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NucleoTransfer.exe.config" size="1406">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2yjgPWQexp8tJlXAEw9xC9MUmjSUwKoa4bE5FuNNQEA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=HIDDE-LAPTOP\hidde" issuerKeyHash="816e91002814bbf62cc719d9e24f52944d261e13" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>XrOS/0EGYIbdoBnW/flvqBNDOTp1SQAeKCu5JVFAsfA=</DigestValue></Reference></SignedInfo><SignatureValue>MRK3FQK7J7IulnkcGjt+jtZ1WZOvrfnr1dcOVUvUigrzvBz9P1ATIcOjyFsuZrBKMfLs+s/KjSdxFU4ko6APWVLQG4dAQdASLwiT0hmAg7BylMgFjvwluwu7wV00T6+L9BlrIJ17lwVxZlCuPvo5guwhHL2sCn91inf8eYxqXoM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>mkjaEUKQmk+fQo+FexuPjpsD3RM6uCiH30rR3qAyWGj+zWDmvvonMLIneWwE6+er4ZkPg8XLs/u6/9f8Wnv/X5RwVeZzj7JqOj6CB2H14hsO1xWWWqjIb3eLfq0UE70OoE0RfwbMMR/3WNk4lMZGfg0nD3jxJcCjUB5eyqInktM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f0b1405125b92b281e0049753a394313a86ff9fdd619a0dd86600641ff92b35e" Description="" Url=""><as:assemblyIdentity name="NucleoTransfer.exe" version="1.0.3.9" publicKeyToken="c04fc9ec53b125d6" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HIDDE-LAPTOP\hidde</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>wU2l3vJ5oODO4Utmp2e0kd3KhN3J+XMjsCCxjPD/yOw=</DigestValue></Reference></SignedInfo><SignatureValue>eaJAmM6mlRSzJVZYDLSlfRG/ZtFSpO/k475AE0dJxtFrcfb/tBOqZ5AuOAlgMuxaekl+fau0RjMsDCfBV1KIZXAuaXZ3YDaTiyW7m8Lgl0ZpeYhcL6/ySOYjIA9yFknAcrAjR3Uv6EGYKWzkxd3+M/T9lpyYcHAjtKp8hhOB8Pc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>mkjaEUKQmk+fQo+FexuPjpsD3RM6uCiH30rR3qAyWGj+zWDmvvonMLIneWwE6+er4ZkPg8XLs/u6/9f8Wnv/X5RwVeZzj7JqOj6CB2H14hsO1xWWWqjIb3eLfq0UE70OoE0RfwbMMR/3WNk4lMZGfg0nD3jxJcCjUB5eyqInktM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQGmPOeWrC+7NC0ley3C2IJjANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQASABJAEQARABFAC0ATABBAFAAVABPAFAAXABoAGkAZABkAGUwHhcNMTcwMjAxMDgxOTQwWhcNMTgwMjAxMTQxOTQwWjAvMS0wKwYDVQQDHiQASABJAEQARABFAC0ATABBAFAAVABPAFAAXABoAGkAZABkAGUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJpI2hFCkJpPn0KPhXsbj46bA90TOrgoh99K0d6gMlho/s1g5r76JzCyJ3lsBOvnq+GZD4PFy7P7uv/X/Fp7/1+UcFXmc4+yajo+ggdh9eIbDtcVllqoyG93i36tFBO9DqBNEX8GzDEf91jZOJTGRn4NJw948SXAo1AeXsqiJ5LTAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAcALbnQ3nkKpduWHNMFwnFEZKNUnWHQprbKdwkNl0QZujNxiR0jjMrkaZJGB6u0s2MU3FvzNk5dDDFV/6/GeGMGtB9hBri1BX816Rt04YdtmiMjUAstJiOzWfFK5/E7PDZzwVOEwwhP8j7vYIc7fop6LWuchYGyJOZPKbVmwLq7o=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
